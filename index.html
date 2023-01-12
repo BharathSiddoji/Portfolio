@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <title>Bootstrap</title>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light sticky-top text-dark overflow-hidden"
+      id="navbar"
+      style="background-color: #0f4252"
+    >
+      <div class="container-fluid d-flex sticky-top">
+        <a class="navbar-brand text-light" href="#">Bharath Siddoji</a>
+        <button
+          class="navbar-toggler bg-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end mx-5 px-3 sticky-top"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Projects</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link text-light"
+                href="#"
+                id="contact"
+                role="button"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid overflow-hidden">
+      <div class="row flex-column-reverse flex-md-row gap-sm-5 gap-md-1">
+        <div class="col-md-5 my-1">
+          <img src="./lo-fi-concept-not-css.svg" alt="image" />
+        </div>
+        <div
+          class="col-md-5 text-center d-flex flex-column justify-content-center"
+        >
+          <h1 class="display-6 fs-1 mt-5 text fw-bold">HELLO!</h1>
+          <p class="fw-normal mx-3 fs-3">My name is Bharath Siddoji</p>
+          <p class="fw-normal mx-3 fs-4 text">I'm Front End Developer</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid overflow-hidden">
+      <div class="row">
+        <div class="col text-dark text-background">
+          <p class="fw-bold fs-3 text-center text-background">Introduction</p>
+        </div>
+        <div class="row py-5">
+          <p class="fw-light text-center">
+            Hi Nice to Meet You!, I am
+            <span class="fs-4">Bharath Kumar Siddoji</span>,I am a Fresher Front
+            End Developer, I have worked as Associate analyst At Wipro, and I
+            have done My Diploma in Civil Engineering.
+          </p>
+        </div>
+      </div>
+
+      <div class="row mt-5" id="skills">
+        <div class="col text-background">
+          <p class="fw-bold fs-4 text-center">Skills</p>
+        </div>
+      </div>
+      <div class="container">
+        <div
+          class="row d-flex flex-row justify-content-center gap-5 flex-wrap text-center mt-5"
+        >
+          <div class="col-sm-2">
+            <box-icon name="html5" type="logo" class="icon"></box-icon>
+            <p class="fs-5 fw-lighter">HTML-5</p>
+          </div>
+          <div class="col-sm-2">
+            <box-icon name="css3" type="logo" class="icon"></box-icon>
+            <p class="fs-5 fw-lighter">CSS 3</p>
+          </div>
+          <div class="col-sm-2">
+            <box-icon name="javascript" type="logo" class="icon"></box-icon>
+            <p class="fs-5 fw-lighter">Javascript</p>
+          </div>
+          <div class="col-sm-2">
+            <box-icon name="bootstrap" type="logo" class="icon"></box-icon>
+            <p class="fs-5 fw-lighter">Bootstrap</p>
+          </div>
+          <div class="col-sm-2">
+            <box-icon type="logo" name="react" class="icon"></box-icon>
+            <p class="fs-5 fw-lighter">React</p>
+          </div>
+          <div class="col-sm-2">
+            <box-icon type="logo" name="figma" class="icon"></box-icon>
+            <p class="fs-5 fw-lighter">Figma</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid overflow-hidden">
+      <div class="row mb-5">
+        <div class="col text-background">
+          <p class="fw-bold fs-4 text-center">Projects</p>
+        </div>
+      </div>
+      <div
+        class="row d-flex flex-row justify-content-center gap-5 flex-wrap text-center"
+      >
+        <div class="card" style="width: 18rem">
+          <a
+            href="https://regal-crepe-5e6b8a.netlify.app/"
+            target="_blank"
+            class="card_link"
+          >
+            <img
+              class="card-img-top pt-3"
+              src="./Screenshot (1).png"
+              alt="Card image cap"
+            />
+          </a>
+          <div class="card-body">
+            <h1 class="display-5 card__title">Travel website</h1>
+            <p class="card-text">
+              Using React
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <a
+            href="https://ecommerce-using-redux-react-router.netlify.app/"
+            target="_blank"
+            class="card_link"
+          >
+            <img
+              class="card-img-top pt-3"
+              src="./redux.png"
+              alt="Card image cap"
+            />
+          </a>
+          <div class="card-body">
+            <h1 class="display-5 card__title">Shopping Cart</h1>
+            <p class="card-text">
+              Using Redux , Router
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <a
+            href="https://bharathsiddoji.github.io/RandomQuote-Generator/"
+            target="_blank"
+            class="card_link"
+          >
+            <img
+              class="card-img-top pt-3"
+              src="./randomQuote.png"
+              alt="Card image cap"
+            />
+          </a>
+          <div class="card-body">
+            <h1 class="display-5 card__title">RandomQuote-Generator</h1>
+            <p class="card-text">
+              Using QuotableApi
+            </p>
+          </div>
+        
+      </div>
+      <div class="card" style="width: 18rem">
+        <a
+          href="https://bharathsiddoji.github.io/frontendmentor--challenge/"
+          target="_blank"
+          class="card_link"
+        >
+          <img
+            class="card-img-top pt-3"
+            src="./frontendmentor.png"
+            alt="Card image cap"
+          />
+        </a>
+        <div class="card-body">
+          <h1 class="display-5 card__title">RandomQuote-Generator</h1>
+          <p class="card-text">
+            Using HTML CSS and Javascript
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
