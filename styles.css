@@ -2,6 +2,7 @@
     --title:rgb(233, 233, 233);
     --subTitle:rgb(201, 201, 201);
     --bold:600;
+    --primary:#1d809f;
 
 }
 
@@ -15,7 +16,7 @@
     
 }
 .text-background{
-    background-color: #1d809f;
+    background-color:var(--primary);
     padding-top: 10px;
 }
 .card{
@@ -59,4 +60,8 @@
 }
 .card_link:hover{
     color: black;
+}
+.contact__me{
+    margin-top: 20px;
+    background-color: var(--primary);
 }
