@@ -80,3 +80,10 @@ textarea{
     font-weight: bold;
     letter-spacing: 5px;
 }
+
+.thank_you_page{
+    text-align: center;
+}
+.thank_you_page p{
+    margin-top: 10px;
+}
