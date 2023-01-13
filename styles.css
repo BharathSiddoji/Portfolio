@@ -61,7 +61,22 @@
 .card_link:hover{
     color: black;
 }
-.contact__me{
-    margin-top: 20px;
+.title{
+
+ text-transform: uppercase;
+ text-decoration: underline;
+}
+form input {
+    border: 3px solid var(--primary);
+    border-radius: 20px;
+}
+textarea{
+    border: 3px solid var(--primary);
+    border-radius: 20px;
+}
+.btn{
     background-color: var(--primary);
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
 }

@@ -59,8 +59,8 @@
             <li class="nav-item dropdown">
               <a
                 class="nav-link text-light"
-                href="#"
-                id="contact"
+                href="#contact"
+                
                 role="button"
               >
                 Contact
@@ -245,14 +245,20 @@
         </div>
       </div>
     </div>
-   <div class="container-fluid">
-    <form  method="post">
-      <label for="name">Enter Your Name</label>
-      <input type="text" name="name" id="name">
+   <div class="container-fluid form-section">
+     <h1 class="title text-center mt-4"  id="contact">Contact me</h1>
+    <form  method="post" class="container-fluid d-flex align-content-center flex-column" action="https://formsubmit.co/bharathsiddoji5@gmail.com">
+      <label  for="name">Enter Your Name</label>
+      <input type="hidden" name="_next" value="">
+      <input type="hidden" name="_subject" value="New submission!">
+      <input class="px-3" type="text" name="name" id="name" placeholder="Enter your name">
       <label for="Email">Email Address</label>
-      <input type="email" name="Email" id="Email">
+      <input type="hidden" name="_captcha" value="false">
+      <input class="px-3" type="email" placeholder="Enter your Email" name="Email" id="Email">
       <label for="message">Message</label>
-      <textarea name="message" id="message" cols="10" rows="10"></textarea>
+      <textarea class="px-3" name="message" placeholder="Enter your message" id="message" cols="24" rows="10" ></textarea>
+      <input type="submit" value="submit" class="btn btn-secondary m-4 ">
+      <a href="thankyou.html">thankyou</a>
     </form>
    </div>
 
